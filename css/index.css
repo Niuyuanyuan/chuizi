@@ -1,0 +1,342 @@
+body,p,ul,ol,dd,dt,li,h1,h2,h3,h4,h5,h6,input{
+ margin:0;
+ padding:0;
+ list-style:none;
+ font-family:Arial,"微软雅黑";
+ 
+}
+img{border:none;}
+a{text-decoration:none;
+color:#434d55}
+
+
+
+.mainbavbox{
+ width:100%;
+ height:100px;
+ background:black;
+}
+
+.mainbav{
+ width:1120px;
+ height:100px;
+ background:black;
+ margin:0 auto;
+ padding:30px 0;
+ }
+
+
+
+ .mainbav-2-li{margin-left:30px;
+ line-height:40px;
+ float:left;
+ }
+
+.mainbav-li{text-decoration:none;
+color:#d3d3d2;}
+.mainbav-li:hover{color:white;}
+
+.tongdao{
+display:block;
+width:88px;
+height:28px;
+border:1px solid #414345;
+border-radius:5px;
+color:white;
+line-height:28px;
+text-align:center;
+margin-top:6px;
+}
+.tongdao:hover{border-color:#fff}
+
+
+.goumai{
+display:block;
+width:115px;
+height:26px;
+border:1px ;
+border-radius:5px;
+background:#6b89d5;
+text-align:center;
+line-height:26px;
+margin-top:6px;
+color:white;
+}
+.goumai:hover{color:black;background:white;}
+
+
+ .mainbav-1{
+ width:167px;
+ height:40px;
+ background:black;
+ float:left;}
+
+
+ .mainbav-2{
+ 
+ background:black;
+ float:right;
+ color:#d3d3d2;
+ font-size:14px;
+ 
+ 
+ }
+/*第二行箭头*/
+
+ .menu{
+ width:100%;
+ height:38px;
+ background-image:url(../image/global-gray-bg-light.jpg);
+}
+.sonmenu{
+ width:1120px;
+ height:38px;
+ margin:0 auto;
+
+ }
+
+ .dengleft{
+ width:120px;
+ height:38px;
+ float:left;
+ font-size:12px;}
+
+ .flag{
+ float:left;
+ width:16px;
+ height:13px;
+ margin-top:12px;
+ background:url(../image/flag.png) -16px -1px}
+
+ .zhongwen{
+ float:left;
+ text-align:center;
+ line-height:38px;
+ margin-left:20px;
+ text-decoration:none;
+ color:black;
+ }
+
+ .jiantou{
+ float:right;
+ display:block;
+ width:7px;
+ height:5px;
+ margin-top:16px;
+ margin-right:20px;
+ }
+
+ .jiantou:hover{
+ transform:rotate(180deg);
+ transition:all 1s Linear;}
+
+ .dengright{
+ float:right;
+ text-align:center;
+ line-height:38px;
+ width:95px;
+ height:38px;
+ display:block;
+ margin-right:25px;}
+
+ .zhuce{
+ float:right;
+  margin-right:11px;
+  line-height:38px;
+ }
+
+ .dengbox{text-decoration:none;
+  font-size:12px;
+  color:#333;
+ 
+  }
+
+/*这个是中间大图片*/
+ .picture{
+ width:100%;
+ height:1150px;
+ background:#eeeeee;
+}
+/*这是中间定义两张图片的大类*/
+.sonpicture{
+ width:1120px;
+ height:1026px;
+ margin:0 auto;
+padding-top:124px;
+ }
+
+/*不可方物那几个字*/
+.sonpicture-small{
+width:356px;
+height:115px;
+margin:0 auto;
+}
+/*中间那个手机的图片*/
+.sonpicture-shouji{
+width:747px;
+height:802px;
+margin:108px auto 0;}
+
+
+
+/*下面三张小图的大大类*/
+  .small{
+ width:100%;
+ height:186px;
+ background:white;
+ margin-top:36px;
+}
+
+
+/*下面三张小图的大大类的儿子，居中的那个大筐筐*/
+.sonsmall{
+ width:1120px;
+ height:186px;
+ background:white;
+ margin:0 auto;
+}
+/*这是小图左边那个*/
+.xuesheng{
+float:left;
+width:330px;
+height:185px;
+margin-left:30px;
+}
+/*这是这是中间那张小图*/
+.chushou{
+float:left;
+width:328px;
+height:183px;
+margin-left:30px;
+}
+
+/*这是这是右边那张小图*/
+.jinjiang{
+float:left;
+width:330px;
+height:185px;
+margin-left:30px;
+}
+
+
+/*下面订单服务那几列*/
+
+  .foot{
+ width:100%;
+ height:163px;
+ background:white;
+  margin-top:48px;
+}
+.sonfoot{
+ width:1120px;
+ height:163px;
+ background:white;
+ margin:0 auto;
+}
+/*第一列*/
+.sonfoot-1-title{
+font-size:18px;
+margin-top:15px;
+margin-bottom:25px;
+}
+
+.sonfoot-1-dd{
+font-size:12px;
+color:#434d55;
+}
+
+.sonfoot-1-a:hover{
+color:#98baef;
+}
+
+.sonfoot-1{float:left;}
+.sonfoot-2{float:left;margin-left:80px;}
+.sonfoot-3{float:left;margin-left:80px;}
+.sonfoot-4{float:left;margin-left:80px;}
+.sonfoot-5{float:left;margin-left:80px;}
+/*在线咨询倒数第二行右边的*/
+.sonfoot-right{
+width:230px;
+height:162px;
+text-align:right;
+float:right;}
+/*蓝色咨询*/
+.sonfoot-right-zixun{
+width:97px;
+height:34px;
+background:url(../image/need-help-button.png) 0 0 no-repeat;
+font-size:16px;
+text-align:center;
+line-height:34px;
+display:block;
+margin-top:32px;
+color:#fff;
+padding-left:20px;
+margin-left:113px;
+}
+/*电话号码*/
+.sonfoot-right-dianhua{
+font-size:28px;
+line-height:51px;
+color:black;
+}
+/*日期预约的时间段*/
+.sonfoot-right-date{
+font-size:12px;
+color:#999999;}
+
+
+ .copy{
+ width:100%;
+ height:62px;
+ background:#f1f1f1;
+
+}
+.soncopy{
+ width:1120px;
+ height:62px;
+ background:#f1f1f1;
+ margin:0 auto;
+ 
+ 
+}
+.soncopy-1{
+width:800px
+height:15px;
+font-size:12px;
+color:#666;
+
+margin-top:30px;
+}
+
+.soncopy-rule{
+margin-top:20px;
+float:left;
+margin-left:10px;
+}
+.falv{
+color:#98baef;}
+.yinsi{
+color:#98baef;}
+
+.soncopy-2{
+width:600px;
+height:26px;
+}
+
+
+.soncopy-2-box{
+font-size:12px;
+color:#555;
+margin-left:10px;
+}
+
+/*右下角的小红旗*/
+.bottom-right{
+width:120px;
+height:13px;
+float:right;
+margin-top:-10px;}
+
+.bottom-right a{
+font-size:12px;}
